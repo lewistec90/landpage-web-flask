@@ -8,16 +8,54 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 align-self-center" id="texto">
-
-                    <h1 >Aplication name</h1 >
+                    <h1>Estudio</h1>
                     <p>This app is new and coming soon will be released.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium ad atque consequatur cupiditate delectus deserunt dicta, ex inventore maiores, nemo nostrum numquam officiis perspiciatis placeat quas, voluptate! Repellat, totam.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium ad atque consequatur
+                        cupiditate delectus deserunt dicta, ex inventore maiores, nemo nostrum numquam officiis perspiciatis
+                        placeat quas, voluptate! Repellat, totam.
                     </p>
-
-
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <button type="button" class="btn btn-light" data-mdb-ripple-color="dark" href="#contact">Contact</button>
                 </div>
 
+            </div>
         </div>
 
     </div>
+
+{#    contact#}
+
+    <div class="container-fluid" id="contact">
+        <div class="container">
+            <div class="align-self-center">
+                <h1>Contacto</h1>
+                <form>
+                    <!-- Name input -->
+                    <div class="form-outline mb-4">
+                        <input type="text" id="form4Example1" class="form-control"/>
+                        <label class="form-label" for="form4Example1">Name</label>
+                    </div>
+
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                        <input type="email" id="form4Example2" class="form-control"/>
+                        <label class="form-label" for="form4Example2">Email address</label>
+                    </div>
+
+                    <!-- Message input -->
+                    <div class="form-outline mb-4">
+                        <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                        <label class="form-label" for="form4Example3">Message</label>
+                    </div>
+
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
 {% endblock %}

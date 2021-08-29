@@ -9,7 +9,7 @@
     /*height: auto;*/
     display: block;
     overflow: auto;
-    min-height: 90%;
+    min-height: 100%;
     background: url("https://i.pinimg.com/originals/64/87/ee/6487ee55294a01de075d802eae866dd5.jpg") no-repeat  fixed;
     background-size: cover;
 
@@ -17,4 +17,9 @@
 
 #texto{
     padding-top: 25%;
+}
+
+#contact{
+    margin-top: 50px;
+    width: 40%;
 }
