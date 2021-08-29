@@ -1,0 +1,20 @@
+/** {*/
+/*    background: brown;*/
+
+/*}*/
+
+#presentation{
+    background: bisque;
+    /*width: 100%;*/
+    /*height: auto;*/
+    display: block;
+    overflow: auto;
+    min-height: 90%;
+    background: url("https://i.pinimg.com/originals/64/87/ee/6487ee55294a01de075d802eae866dd5.jpg") no-repeat  fixed;
+    background-size: cover;
+
+}
+
+#texto{
+    padding-top: 25%;
+}
